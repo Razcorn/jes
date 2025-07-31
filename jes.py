@@ -3,7 +3,7 @@ from jes_ui import UI
 
 c_input = input("How many creatures do you want?\n100: Lightweight\n250: Standard (if you don't type anything, I'll go with this)\n500: Strenuous (this is what my carykh video used)\n")
 if c_input == "":
-    c_input = "250"
+    c_input = "1000"
 
 # Simulation
 # population size is 250 here, because that runs faster. You can increase it to 500 to replicate what was in my video, but do that at your own risk!
