@@ -31,7 +31,7 @@ class Creature:
         tx,ty,s = transform
         color = self.traitsToColor(self.dna,x,y,frame)
         points = [None]*4
-        for p in range(4):
+        for p in range(5):
             px = x
             if p == 1 or p == 2:
                 px += 1
