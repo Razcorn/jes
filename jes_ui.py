@@ -18,7 +18,7 @@ class UI:
         self.bigFont = pygame.font.SysFont('Arial', 60)  	
         self.smallFont = pygame.font.SysFont('Arial', 30)
         self.tinyFont = pygame.font.SysFont('Arial', 21)
-        self.BACKGROUND_PIC = pygame.image.load("visuals/background.png")
+        self.BACKGROUND_PIC = pygame.image.load("jes-main/visuals/background.png")
         self.W_W = _W_W
         self.W_H = _W_H
         self.MOVIE_SINGLE_DIM = _MOVIE_SINGLE_DIM
