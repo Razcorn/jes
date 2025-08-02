@@ -16,7 +16,7 @@ _gravity_acceleration_coef=0.002, _calming_friction_coef=0.7,
 _typical_friction_coef=0.8, _muscle_coef=0.08,
 _traits_per_box=3, # desired width, desired height, rigidity
 _traits_extra=1, # heartbeat (time)
-_mutation_rate=0.15, _big_mutation_rate=0.6,
+_mutation_rate=0.5, _big_mutation_rate=0.2,
 _UNITS_PER_METER=0.05)
 
 # Cosmetic UI variables
@@ -38,5 +38,6 @@ while ui.running:
     ui.doMovies()
     ui.drawMenu()
     ui.show()
+
 
 
